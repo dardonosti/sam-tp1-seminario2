@@ -47,7 +47,7 @@ public class NewGameActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 Typeface font = ResourcesCompat.getFont(getApplicationContext(),R.font.earlygameboy);
                 ((TextView) adapterView.getChildAt(0)).setTypeface(font);
-                /* Esta forma siguiente solo fuciona en API 26 */
+                /* Esta forma siguiente solo funciona en API 26 */
                 /*((TextView) adapterView.getChildAt(0)).setTypeface(getResources().getFont(R.font.earlygameboy)); */
                 ((TextView) adapterView.getChildAt(0)).setTextColor(getResources().getColor(R.color.colorSpinner));
                 ((TextView) adapterView.getChildAt(0)).setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
