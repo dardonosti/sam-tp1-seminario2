@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:background="#EE9D31"
+    tools:context=".NewGameActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                app:srcCompat="@drawable/splash_sam_main" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nJugador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:hint="Jugador"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="#5A392B"
+                android:textColorHint="#5A392B"
+                android:fontFamily="@font/earlygameboy"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.8"
+                android:fontFamily="@font/earlygameboy"
+                android:padding="10dp"
+                android:text="Tablero"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#5A392B"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="174dp"
+                android:layout_height="39dp"
+                android:alpha="0.8"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="#F26C1A"
+                android:spinnerMode="dropdown"
+                android:theme="@style/SpinnerTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnIniciar"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton1"
+                android:fontFamily="@font/earlygameboy"
+                android:onClick="Iniciar"
+                android:text="Iniciar"
+                android:textColor="#5A392B" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
