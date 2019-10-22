@@ -1,5 +1,6 @@
 package com.example.sam_tp1_seminario2;
 
+import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.os.Build;
 import android.os.Bundle;
@@ -19,6 +20,8 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.w3c.dom.Text;
+
+import static java.security.AccessController.getContext;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -42,32 +45,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String jugador = String.format("1P %s", nombreJugador);
         tv.setText(jugador);
 
+        /* SALUDO */
         Toast toast = new Toast(getApplicationContext());
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.toast_layout,
+                (ViewGroup) findViewById(R.id.toast_layout_root));
+        TextView text = (TextView) layout.findViewById(R.id.text);
 
-        if(tamTablero.equals(" 3 x 3 ")) {
-            /* Homenaje Wolfenstein 3d */
-            String saludo = String.format("Homenaje a Wolfenstein 3D");
-            LayoutInflater inflater = getLayoutInflater();
-            View layout = inflater.inflate(R.layout.toast_layout,
-                    (ViewGroup) findViewById(R.id.toast_layout_root));
-            TextView text = (TextView) layout.findViewById(R.id.text);
-            text.setText(saludo);
-            toast.setDuration(Toast.LENGTH_LONG);
-            toast.setView(layout);
-            toast.show();
-        } else {
-            /* SALUDO */
+        if (!nombreJugador.equals("wolf3d")) {
             String saludo = String.format("Bienvenido %s ", nombreJugador + "!");
-            LayoutInflater inflater = getLayoutInflater();
-            View layout = inflater.inflate(R.layout.toast_layout,
-                    (ViewGroup) findViewById(R.id.toast_layout_root));
-            TextView text = (TextView) layout.findViewById(R.id.text);
             text.setText(saludo);
             toast.setDuration(Toast.LENGTH_SHORT);
             toast.setView(layout);
             toast.show();
-            /* ------ */
+        } else {
+            String saludo = String.format("Homenaje a Wolfenstein 3D");
+            text.setText(saludo);
+            toast.setDuration(Toast.LENGTH_LONG);
+            toast.setView(layout);
+            toast.show();
         }
+        /* ------ */
 
         buttonUp = findViewById(R.id.buttonUp);
         buttonDown = findViewById(R.id.buttonDown);

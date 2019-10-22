@@ -3,6 +3,8 @@ package com.example.sam_tp1_seminario2;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 
+import static java.security.AccessController.getContext;
+
 /**
  * A maze 2D rectangular board. Knows the maze layout, dimensions. Can be queried for width, height
  * and piece by positional (0 based index). Can export/import textual representation.
@@ -45,7 +47,7 @@ public class MazeBoard {
         MazeBoard maze = new MazeBoard();
         switch (repr) {
             // test with simple layout
-            case " 3 x 3 ": {
+            case "wolf3d": {
                 maze.board = new BoardPiece[9];
                 maze.height = 3; maze.width = 3;
 
@@ -61,6 +63,24 @@ public class MazeBoard {
 
                 maze.board[8].setWinFlag(true); //SET WIN FLAG
                 maze.board[8].setWolf3d(true);
+                break;
+            }
+
+            case " 3 x 3 ": {
+                maze.board = new BoardPiece[9];
+                maze.height = 3; maze.width = 3;
+
+                maze.board[0] = new BoardPiece(false,false, false,true);
+                maze.board[1] = new BoardPiece(false,false, true, false);
+                maze.board[2] = new BoardPiece(true,false,false,true);
+                maze.board[3] = new BoardPiece(false,true,true,true);
+                maze.board[4] = new BoardPiece(true,false,true,false);
+                maze.board[5] = new BoardPiece(true,true,false,true);
+                maze.board[6] = new BoardPiece(false,true,true,false);
+                maze.board[7] = new BoardPiece(true, false,false,false);
+                maze.board[8] = new BoardPiece(false,true,false,false);
+
+                maze.board[8].setWinFlag(true); //SET WIN FLAG
                 break;
             }
 
@@ -164,7 +184,7 @@ public class MazeBoard {
                 maze.board[34] = new BoardPiece(true,true,false,false);
                 maze.board[35] = new BoardPiece(false,true,false,false);
 
-                maze.board[24].setWinFlag(true); //SET WIN FLAG
+                maze.board[28].setWinFlag(true); //SET WIN FLAG
                 break;
             }
             case " 7 x 7 ":{
@@ -294,7 +314,7 @@ public class MazeBoard {
                 maze.board[62] = new BoardPiece(true,false,true,false);
                 maze.board[63] = new BoardPiece(true,true,false,false);
 
-                maze.board[51].setWinFlag(true); //SET WIN FLAG
+                maze.board[52].setWinFlag(true); //SET WIN FLAG
                 break;
 
             }

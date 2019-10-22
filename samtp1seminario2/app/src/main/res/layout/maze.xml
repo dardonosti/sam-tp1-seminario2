@@ -145,8 +145,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:background="@drawable/boton"
-            android:text="RIGHT"
             android:fontFamily="@font/earlygameboy"
+            android:paddingLeft="5dp"
+            android:text="RIGHT"
             android:textColor="#5A392B" />
     </LinearLayout>
 

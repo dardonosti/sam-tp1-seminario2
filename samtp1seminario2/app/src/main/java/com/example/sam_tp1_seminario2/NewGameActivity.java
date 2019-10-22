@@ -77,7 +77,13 @@ public class NewGameActivity extends AppCompatActivity {
         } else {
             Intent intent = new Intent(NewGameActivity.this, MainActivity.class);
             intent.putExtra("nombre", et.getText().toString());
-            intent.putExtra("tamTablero", spTablero.getSelectedItem().toString());
+
+            if (et.getText().toString().equals("wolf3d")) {
+                intent.putExtra("tamTablero", "wolf3d");
+            } else {
+                intent.putExtra("tamTablero", spTablero.getSelectedItem().toString());
+            }
+
             startActivity(intent);
             finish();
         }
