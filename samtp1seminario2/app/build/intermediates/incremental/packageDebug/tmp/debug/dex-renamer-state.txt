@@ -1,7 +1,7 @@
-#Mon Oct 21 23:44:39 ART 2019
-base.0=/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Tue Oct 22 17:27:13 ART 2019
+base.0=/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

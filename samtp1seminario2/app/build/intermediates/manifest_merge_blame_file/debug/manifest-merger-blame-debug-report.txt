@@ -6,81 +6,82 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml
+8-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml
+9-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:5:5-34:19
+11-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:5:5-34:19
 12        android:allowBackup="true"
-12-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] /Users/dardonosti/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.1] /Users/dardonosti/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:7:9-43
+15-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:7:9-43
 16        android:label="Simple Android Maze"
-16-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:8:9-44
+16-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:8:9-44
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:9:9-54
+17-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity
-20-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:12:9-19:20
-21            android:name="com.example.sam_tp1_seminario2.SplashActivity"
-21-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:12:19-49
-22            android:screenOrientation="portrait"
-22-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:13:13-49
-23            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-23-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:14:13-69
-24            <intent-filter>
-24-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:15:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:16:17-68
-25-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:17:17-76
-27-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity
-30-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:20:9-27:20
-31            android:name="com.example.sam_tp1_seminario2.NewGameActivity"
-31-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:20:19-50
-32            android:screenOrientation="portrait"
-32-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:21:13-49
-33            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-33-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:22:13-69
-34            <intent-filter>
-34-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:23:13-26:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:16:17-68
-35-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:16:25-66
-36
-37                <category android:name="android.intent.category.DEFAULT" />
-37-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:25:17-76
-37-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:25:27-73
-38            </intent-filter>
-39        </activity>
-40        <activity
-40-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:28:9-30:71
-41            android:name="com.example.sam_tp1_seminario2.MainActivity"
-41-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:28:19-47
-42            android:screenOrientation="portrait"
-42-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:29:13-49
-43            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-43-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:30:13-69
-44        <activity
-44-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:31:9-33:71
-45            android:name="com.example.sam_tp1_seminario2.WinActivity"
-45-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:31:19-46
-46            android:screenOrientation="portrait"
-46-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:32:13-49
-47            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-47-->/Users/dardonosti/Documents/Seminario-II/Git/samtp1seminario2/app/src/main/AndroidManifest.xml:33:13-69
-48    </application>
-49
-50</manifest>
+18-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity
+21-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:12:9-19:20
+22            android:name="com.example.sam_tp1_seminario2.SplashActivity"
+22-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:12:19-49
+23            android:screenOrientation="portrait"
+23-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:13:13-49
+24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+24-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:14:13-69
+25            <intent-filter>
+25-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:15:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:16:17-68
+26-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:17:17-76
+28-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:20:9-27:20
+32            android:name="com.example.sam_tp1_seminario2.NewGameActivity"
+32-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:20:19-50
+33            android:screenOrientation="portrait"
+33-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:21:13-49
+34            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:22:13-69
+35            <intent-filter>
+35-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:23:13-26:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:16:17-68
+36-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:16:25-66
+37
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:25:17-76
+38-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:25:27-73
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:28:9-30:71
+42            android:name="com.example.sam_tp1_seminario2.MainActivity"
+42-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:28:19-47
+43            android:screenOrientation="portrait"
+43-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:29:13-49
+44            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+44-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:30:13-69
+45        <activity
+45-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:31:9-33:71
+46            android:name="com.example.sam_tp1_seminario2.WinActivity"
+46-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:31:19-46
+47            android:screenOrientation="portrait"
+47-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:32:13-49
+48            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+48-->/Users/dardonosti/Documents/Seminario-II/git/sam-tp1-seminario2/samtp1seminario2/app/src/main/AndroidManifest.xml:33:13-69
+49    </application>
+50
+51</manifest>

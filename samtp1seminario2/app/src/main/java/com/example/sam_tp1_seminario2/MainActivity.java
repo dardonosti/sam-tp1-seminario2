@@ -1,6 +1,7 @@
 package com.example.sam_tp1_seminario2;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.os.Build;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TableLayout;
@@ -37,6 +39,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Window window = getWindow();
+        window.setStatusBarColor(Color.rgb(56,56,56));
+        window.setNavigationBarColor(Color.rgb(238,157,49));
+
+
         setContentView(R.layout.maze);
 
         getDatos();
